@@ -1,0 +1,78 @@
+/* Change the background color of the save button in the memo editor */
+#page-wrapper > main > div.memo-editor-wrapper > div.common-editor-wrapper.memo-editor > div.common-tools-wrapper > div.btns-container > button{
+    background-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+}
+
+/* Change the background color of the save button in the memo comment section */
+#page-wrapper > main > div.memolist-wrapper.completed > div.memo-wrapper.memos-202306201345004.JOURNAL > div.memo-comment-wrapper > div > div > div > div.btns-container > button{
+    background-color: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
+}
+
+/* Set the background color for the heatmap indicators based on usage frequency */
+/* Each level (L1 to L4) has a different hue and lightness based on the accent color */
+/* The lightness is increased by 25% for each level */
+
+/* Set background color for heatmap Level 1 */
+.theme-dark div[data-type='memos_view'] .usage-heat-map-wrapper > .usage-heat-map > .stat-container.stat-day-L1-bg {
+    background-color: hsl(calc(var(--accent-h) + 120 ) , var(--accent-s), calc(var(--accent-l) * 1.5));
+}
+/* Set background color for heatmap Level 2 */
+.theme-dark div[data-type='memos_view'] .usage-heat-map-wrapper > .usage-heat-map > .stat-container.stat-day-L2-bg {
+    background-color: hsl(calc(var(--accent-h) + 120 ) , var(--accent-s), calc(var(--accent-l) * 1.25));
+}
+/* Set background color for heatmap Level 3 */
+
+.theme-dark div[data-type='memos_view'] .usage-heat-map-wrapper > .usage-heat-map > .stat-container.stat-day-L3-bg {
+    background-color: hsl(calc(var(--accent-h) + 120 ) , var(--accent-s), var(--accent-l));
+}
+/* Set background color for heatmap Level 4 (Max) */
+
+.theme-dark div[data-type='memos_view'] .usage-heat-map-wrapper > .usage-heat-map > .stat-container.stat-day-L4-bg {
+    background-color: hsl(calc(var(--accent-h) + 120 ) , var(--accent-s), calc(var(--accent-l) * 0.75));
+}
+/* Define color scheme for the main editor area in dark mode */
+.theme-dark div[data-type='memos_view'] .memo-editor-wrapper > .memo-editor {
+    background-color: var(--background-primary);
+}
+
+/* Define color scheme for the lighter sections of the editor in dark mode */
+.theme-dark div[data-type='memos_view'] .memo-editor-wrapper  {
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border); 
+
+} 
+
+/* Define color scheme for the memo list section in dark mode */
+.theme-dark div[data-type="memos_view"] .memo-wrapper {
+    background-color: var(--background-secondary);
+    border: 1px solid var(--background-modifier-border); 
+}
+
+/* Define color scheme for side bar in dark mode */
+
+.theme-dark div[data-type='memos_view'] .search-bar-container > .search-bar-inputer {
+    background-color: var(--background-secondary);
+}
+
+#page-wrapper > main > div.section-header-container.memos-header-container > div.search-bar-container > div.search-bar-inputer{
+    background-color: var(--background-secondary);
+}
+
+.theme-dark .mobile-view .memos-sidebar-wrapper{
+    background-color: var(--background-secondary);
+}
+
+
+.theme-dark .mobile-view .tags-wrapper{
+    background-color: var(--background-secondary) !important ;
+}
+
+.theme-dark .queries-wrapper > .create-query-btn-container > .btn{
+    border:1.5px dashed var(--color-base-100);
+    color: var(--text-normal);
+}
+
+.theme-dark .user-banner-container .userinfo-header-container > div{
+    background-color: var(--background-secondary);
+}
+
