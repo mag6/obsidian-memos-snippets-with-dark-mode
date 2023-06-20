@@ -11,7 +11,7 @@ The current features include:
 
 1. The save buttons in the obsidian-memos' memo editor and memo comment section are set based on the user's chosen accent color.
 2. The background color of the heatmap indicators, based on the number of memo posts, is set according to the accent color.
-    - The hue of the accent color is shifted by 120 degrees (complementary color pairing).
+    - The hue of the accent color is shifted by 120 degrees ( like [triadic color scheme](https://www.homedit.com/colors/color-theory/triadic-color-scheme/).
     - Each level from 1 to 4 has different hues and lightness values based on the accent color. The lightness changes by 25% at each level.
 3. The color scheme of the memo editor area is defined. The background color is based on the color variable `--background-primary` defined by each theme.
 4. The color scheme of the area where the added memo list is displayed is defined. The background color and border color are based on the pre-defined color variables (var(--background-secondary), var(--background-modifier-border)).
